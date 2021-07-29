@@ -1,0 +1,186 @@
+* {
+    font-family: sans-serif;
+}
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .border {
+    background-color:#b5eff1 ;
+    height: 30px;
+  }
+  
+  .container {
+    width: 80%;
+    margin:0px auto;
+    
+  }
+  .container:after {
+    content: '';
+    display: block;
+    clear: both;
+  }
+    
+  header h1 {
+    float: left;
+    font-size: 50px;
+    padding:10px 20px;
+  }
+  
+  header ul {
+    float: right;
+  }
+  
+  header ul li {
+    display: inline-block;
+  }
+  
+  header ul li a {
+    display: inline-block;
+    padding: 30px 30px;
+  }
+  
+  header ul li a:hover {
+    background-color: #b5eff1;
+  }
+  
+  .active {
+    background-color: #b5eff1;
+  }
+.label {
+    background-color:#AFEEEE;
+    color: #fff;
+}
+.label p {
+  color: #000;
+}
+section {
+    padding: 30px 0;
+}
+section h3 {
+    text-align: center;
+    padding: 20px 0;
+    color: #8d9b99;
+    margin-bottom: 20px;
+}
+.about p {
+    color: #666;
+    word-spacing: 2px;
+    line-height: 25px; 
+    text-align: center;
+}
+.about h3 {
+  color: #40E0D0;
+}
+.service h3 {
+  color: #40E0D0;
+}
+.banner {
+	height: 60vh;
+	background-image: url(https://i2.wp.com/bizlab.co.id/wp-content/uploads/2021/01/ilustrator-vc-desain-grafis.jpg?w=626&ssl=1);
+	background-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after {
+	content:'';
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:rgba(48, 206, 209, .6);
+}
+.banner h2 {
+	color: #fff;
+	z-index: 1;
+	padding: 20px 25px;
+	border: 3px solid;
+}
+section {
+	padding: 50px 0;
+}
+.service {
+    background-color: #f9f9f9;
+}
+.box {
+  color: #40E0D0;
+}
+box:after {
+    content:'';
+    clear: both;
+    display:block;
+}
+.box .col-3 {
+    width: 33%;
+    padding: 20px;
+    box-sizing: border-box;
+    text-align: center;
+    float: left;
+}
+.icon {
+    width: 70px;
+    height: 70px;
+    border: 1px solid;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 70px;
+    font-size: 30px;
+    margin: 0 auto;
+}
+.box .col-3 h4 {
+    margin: 20px 0;
+}
+footer {
+  color:white;
+  font-family:sans-serif;
+  background:#1e375e;
+  height:120px;
+  padding:10px 30px 0 30px;
+}
+
+.footer-logo {
+  font-size:20px;
+  float:left;
+  padding-top:20px;
+  opacity:0.7;
+}
+.contact {
+  float:right;
+  opacity:0.7;
+  font-size:13px;
+}
+.copyright {
+  text-align:center;
+  font-size:12px;
+  padding-top:83px;
+}
+@media screen and (max-width :768px) {
+  .container {
+    scroll-behavior: auto!important;
+    width:90%;
+  }
+  header h1 {
+    text-align:center;
+    float:none;
+  }
+  header ul {
+    text-align:center;
+    float:none;
+  } 
+  .box .col-3 {
+    width:100%;
+    float:none;
+    margin-bottom: 20px;
+  }
+}
